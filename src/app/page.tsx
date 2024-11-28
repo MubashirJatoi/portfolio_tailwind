@@ -14,10 +14,10 @@ export default function Home() {
         <div className="Home">
         <div className="main flex ml-[60px] mt-[150px]">
             <div className="left-side">
-                <p className="p1 text-[#707070] mt-[-2] text-[24px]">Hi I am</p>
+                <p className="p1 text-[#707070] mt-[-2px] text-[24px]">Hi I am</p>
                 <p className="p2 text-[#959595] text-[28px] mt-[-1px]">Mubashir Hussain</p>
                 <h1 className="h1-1 text-[50px] font-[700] bg-[linear-gradient(150deg,_#984300_0%,_#FD6F00_46%,_#CA5900_100%)] bg-clip-text text-transparent mt-[19px]">Front-end web Developer</h1>
-                <div className="profiles flex gap-[20] mt-[21px] bg-transparent">
+                <div className="profiles flex gap-[20px] mt-[21px] bg-transparent">
                     <div className="profiles-s bg-transparent">
                     <Link className="pprr bg-transparent" target="_blank" href="https://github.com/MubashirJatoi?tab=repositories">
                         <Image className="circle cursor-pointer bg-transparent hover:transition-transform hover:duration-300 hover:ease-in-out hover:scale-110" src={Circle} alt="Circle" />
@@ -44,21 +44,21 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="btns flex gap-[24] mt-[29px]">
-                <Link className="phonu bg-transparent flex no-underline decoration-[none]" href="tel:+923701135722"><button id="btn1" className="btn h-[48] w-[156] text-[20px] bg-[#FD6F00] text-[#FFFFFF] rounded-[8] border-[#FD6F00] cursor-pointer hover:bg-transparent hover:text-[#959595] hover:border-2 hover:border-[#959595]">Hire Me</button></Link>
-                    <Link target="_blank" href={"/CV"}><button id="btn2" className="btn h-[48] w-[209] rounded-[8] text-[#959595] border-2 border-[#959595] bg-transparent text-[20px] cursor-pointer hover:bg-[#E46400] hover:border-[#FD6F00] hover:text-[#FFFFFF]">Resume</button></Link>
+                <Link className="phonu bg-transparent flex no-underline decoration-[none]" href="tel:+923701135722"><button id="btn1" className="btn h-[48px] w-[156px] text-[20px] bg-[#FD6F00] text-[#FFFFFF] rounded-[8px] border-[#FD6F00] cursor-pointer hover:bg-transparent hover:text-[#959595] hover:border-2 hover:border-[#959595]">Hire Me</button></Link>
+                    <Link target="_blank" href={"/CV"}><button id="btn2" className="btn h-[48px] w-[209px] rounded-[8px] text-[#959595] border-2 border-[#959595] bg-transparent text-[20px] cursor-pointer hover:bg-[#E46400] hover:border-[#FD6F00] hover:text-[#FFFFFF]">Resume</button></Link>
                 </div>
-                <div className="my-thing flex bg-[#1B1B1B] w-[550] h-[105] gap-[50] mt-[30px] items-center">
-                    <div className="all-same ml-[24] bg-[#1B1B1B] leading-[35px]">
+                <div className="my-thing flex bg-[#1B1B1B] w-[550px] h-[105px] gap-[50px] mt-[30px] items-center">
+                    <div className="all-same ml-[24px] bg-[#1B1B1B] leading-[35px]">
                         <p className="pp text-[#FD6F00] text-[24px] bg-[#1B1B1B]">1+</p>
                         <p className="pt text-[20px] text-[#DFDFDF] bg-[#1B1B1B]">Experience</p>
                     </div>
                     <div className="hr-fake border-l-2 border-solid border-l-[#DFDFDF] h-[80px] bg-[#1B1B1B] ml-[-10px] mr-[-30px]"></div>
-                    <div className="all-same ml-[24] bg-[#1B1B1B] leading-[35px]">
+                    <div className="all-same ml-[24px] bg-[#1B1B1B] leading-[35px]">
                         <p className="pp text-[#FD6F00] text-[24px] bg-[#1B1B1B]">10+</p>
                         <p className="pt text-[20px] text-[#DFDFDF] bg-[#1B1B1B]">Project done</p>
                     </div>
                     <div className="hr-fake border-l-2 border-solid border-l-[#DFDFDF] h-[80px] bg-[#1B1B1B] ml-[-10px] mr-[-30px]"></div>
-                    <div className="all-same ml-[24] bg-[#1B1B1B] leading-[35px]">
+                    <div className="all-same ml-[24px] bg-[#1B1B1B] leading-[35px]">
                         <p className="pp text-[#FD6F00] text-[24px] bg-[#1B1B1B]">1+</p>
                         <p className="pt text-[20px] text-[#DFDFDF] bg-[#1B1B1B]">Happy Clients</p>
                     </div>
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             <div className="right-side flex ml-[230px] mt-[40px]">
             <Image className="big-circle" src={BigCircle} alt="Big-Circle" width={420}/>
-            <Image className="my-pic h-[533] ml-[-390px] mt-[-115px] bg-transparent rounded-[170]" src={Mypic} alt="my-pic" width={400}/>
+            <Image className="my-pic h-[533px] ml-[-390px] mt-[-115px] bg-transparent rounded-[170px]" src={Mypic} alt="my-pic" width={400}/>
             </div>
         </div>
         </div>

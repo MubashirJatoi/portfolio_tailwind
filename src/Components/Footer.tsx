@@ -22,7 +22,7 @@ function Footer () {
                 <Link id="what" className="links no-underline decoration-[none] text-[#959595] bg-transparent hover:text-[#FF6F00]" href={"/"}>Portfolio</Link>
                 <Link id="what" className="links no-underline decoration-[none] text-[#959595] bg-transparent hover:text-[#FF6F00]" href={"/"}>Contact me</Link>
             </div>
-            <div id="mm11" className="profiles flex gap-[20] mt-[50px] bg-transparent justify-center">
+            <div id="mm11" className="profiles flex gap-[20px] mt-[50px] bg-transparent justify-center">
                     <div className="profiles-s bg-transparent">
                     <Link className="pprr bg-transparent" target="_blank" href="https://github.com/MubashirJatoi?tab=repositories">
                         <Image className="circle cursor-pointer bg-transparent hover:transition-transform hover:duration-300 hover:ease-in-out hover:scale-110" src={Circle} alt="Circle" />

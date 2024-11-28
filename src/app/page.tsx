@@ -43,7 +43,7 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
-                <div className="btns flex gap-[24] mt-[29px]">
+                <div className="btns flex gap-[24px] mt-[29px]">
                 <Link className="phonu bg-transparent flex no-underline decoration-[none]" href="tel:+923701135722"><button id="btn1" className="btn h-[48px] w-[156px] text-[20px] bg-[#FD6F00] text-[#FFFFFF] rounded-[8px] border-[#FD6F00] cursor-pointer hover:bg-transparent hover:text-[#959595] hover:border-2 hover:border-[#959595]">Hire Me</button></Link>
                     <Link target="_blank" href={"/CV"}><button id="btn2" className="btn h-[48px] w-[209px] rounded-[8px] text-[#959595] border-2 border-[#959595] bg-transparent text-[20px] cursor-pointer hover:bg-[#E46400] hover:border-[#FD6F00] hover:text-[#FFFFFF]">Resume</button></Link>
                 </div>

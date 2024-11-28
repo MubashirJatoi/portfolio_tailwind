@@ -13,7 +13,7 @@ function Navbar() {
                 <Link className="links no-underline decoration-[none] text-[#959595] bg-transparent hover:text-[#FF6F00]" href={"/Projects"}>Projects</Link>
                 <Link className="links no-underline decoration-[none] text-[#959595] bg-transparent hover:text-[#FF6F00]" href={"/Contactme"}>Contact me</Link>
             </div>
-            <Link className="phonu bg-transparent flex no-underline decoration-[none]" href="tel:+923701135722"><button className="hire-me text-[#FFFFFF] bg-[#FD6F00] rounded-[8px] w-[141px] h-[43px] border-[#FD6F00] mr-[50px] text-[16px] cursor-pointer hover:mt-[5px] hover:transition-colors hover:duration-100 hover:ease-in-out hover:[color-transition:1s]"><p className="bg-gradient-to-r from-[#FD6F00] to-[#E46400] hover:mt-[1px]">Hire Me</p></button></Link>
+            <Link className="phonu bg-transparent flex no-underline decoration-[none]" href="tel:+923701135722"><button className="hire-me text-[#FFFFFF] bg-[#FD6F00] rounded-[8px] w-[141px] h-[43px] border-[#FD6F00] mr-[50px] text-[16px] cursor-pointer hover:mt-[5px] hover:transition-colors hover:duration-100 hover:ease-in-out hover:[color-transition:1s]">Hire Me</button></Link>
         </div>
     );
 };

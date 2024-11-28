@@ -14,7 +14,7 @@ function Footer () {
     return(
         <div>
         <div className="footer mt-[150px] bg-[#1B1B1B] h-[400px]">
-            <Link className="hnnm bg-transparent" href={"/"}><Image className="hmm1 mt-[30px] ml-[38.5rem] bg-transparent  cursor-pointer" src={Logo} alt="Logo" width={100}/></Link>
+            <Link className="hnnm bg-transparent" href={"/"}><Image className="hmm1 mt-[30px] ml-[45rem] bg-transparent  cursor-pointer" src={Logo} alt="Logo" width={100}/></Link>
             <div id="waiting" className="links-parent gap-[60px] text-[20px] bg-transparent flex justify-center mt-[30px]">
                 <Link id="what" className="links no-underline decoration-[none] text-[#959595] bg-transparent hover:text-[#FF6F00]" href={"/"}>Home</Link>
                 <Link id="what" className="links no-underline decoration-[none] text-[#959595] bg-transparent hover:text-[#FF6F00]" href={"/"}>Services</Link>

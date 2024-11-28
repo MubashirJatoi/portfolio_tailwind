@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
-import Image from "next/image";
+import Image, {StaticImageData} from "next/image";
 import HTML from "../../../public/Images/HTML.png";
 import CSS from "../../../public/Images/CSS.png";
 import Typescript from "../../../public/Images/TYPESCRIPT.png";

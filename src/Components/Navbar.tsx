@@ -6,7 +6,7 @@ function Navbar() {
     return(
         <div className="navbar items-center flex justify-between bg-[#121212] h-[80px] fixed top-0 w-[100%] z-[100]">
             <Link href={"/"}><Image className="logo ml-[20px] " src={Logo} alt="Logo" width={100} height={20}/></Link>
-            <div className="links-parent flex gap-[60px] text-[20px] bg-transparent">
+            <div className="links-parent flex justify-center gap-[60px] text-[20px] bg-transparent">
                 <Link className="links no-underline decoration-[none] text-[#959595] bg-transparent hover:text-[#FF6F00]" href={"/"}>Home</Link>
                 <Link className="links no-underline decoration-[none] text-[#959595] bg-transparent hover:text-[#FF6F00]" href={"/Services"}>Services</Link>
                 <Link className="links no-underline decoration-[none] text-[#959595] bg-transparent hover:text-[#FF6F00]" href={"/Aboutme"}>About me</Link>

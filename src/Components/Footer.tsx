@@ -57,7 +57,7 @@ function Footer () {
                 <Link className="phonu bg-transparent flex no-underline decoration-[none]" href="tel:+923701135722"><Image  id="iccon" className="phone mr-[10px] bg-transparent" src={Phone} alt="phone"/><p className="bg-transparent text-[#959595]">+92 370 113 5722</p></Link>
                 </div>
                 </div>
-                <hr className="hr1 w-[593px] ml-[364px] mt-[30px]" />
+                <hr className="hr1 w-[593px] ml-[340px] mt-[30px]" />
                 <p className="dsgn bg-transparent text-[#707070] text-[16px] flex justify-center mt-[20px]">Design by @Mubashir.Hussain Front-end web Developer</p>
         </div>
         </div>

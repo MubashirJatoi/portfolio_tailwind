@@ -13,7 +13,7 @@ import Phone from "../../public/Images/phone.png"
 function Footer () {
     return(
         <div>
-        <div className="footer mt-[150px] bg-[#1B1B1B] h-[400]">
+        <div className="footer mt-[150px] bg-[#1B1B1B] h-[400px]">
             <Link className="hnnm bg-transparent" href={"/"}><Image className="hmm1 mt-[30px] ml-[38.5rem] bg-transparent  cursor-pointer" src={Logo} alt="Logo" width={100}/></Link>
             <div id="waiting" className="links-parent gap-[60px] text-[20px] bg-transparent flex justify-center mt-[30px]">
                 <Link id="what" className="links no-underline decoration-[none] text-[#959595] bg-transparent hover:text-[#FF6F00]" href={"/"}>Home</Link>
@@ -48,7 +48,7 @@ function Footer () {
                         </Link>
                     </div>
                 </div>
-                <div className="foryou bg-transparent flex gap-[50] justify-center mt-[50px]">
+                <div className="foryou bg-transparent flex gap-[50px] justify-center mt-[50px]">
                 <div className="iccon bg-transparent flex mr-[10px]">
                 <div className="iccon bg-transparent flex mr-[10px]">
                 <Link className="mailbox ml-[-22px] mb-[-5px] bg-transparent" target="_blank" href="mailto:mubashirlukman231@gmail.com?subject=Subject%20Here&body=Hello,%20this%20is%20a%20pre-filled%20email%20body."><Image className="mailstick absolute mt-[5px] bg-transparent" src={Mailstick} alt="mailstick"/><Image className="mailbox bg-transparent" src={Mailbox} alt="mailbox"/></Link></div><Link className="fgh bg-transparent no-underline decoration-[none]" target="_blank" href="mailto:mubashirlukman231@gmail.com?subject=Subject%20Here&body=Hello,%20this%20is%20a%20pre-filled%20email%20body."><p className="bg-transparent text-[#959595]">Mubashirlukman231@gmail.com</p></Link>

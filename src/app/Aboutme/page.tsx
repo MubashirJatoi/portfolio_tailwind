@@ -25,11 +25,7 @@ function Aboutme() {
                     <p className="text-[13px] sm:text-[18px]">
                         I am Mubashir Hussain, an 18-year-old from Karachi, Sindh, belonging to the Jatoi caste.
                         A year ago, I completed my matriculation and now study in 12th grade at Sindh Muslim College.
-                        My journey in IT began when I learned about the Governor of Sindh’s initiative offering an IT course at the Governor’s House.
-                        After passing a test in physics, math, and IQ, I joined the program. In the first quarter, I learned TypeScript and passed the exams,
-                        advancing to the second quarter. Now, I’ve gained skills in HTML, CSS, TypeScript, some JavaScript, and Python, and I’m currently
-                        exploring Next.js. This program has been transformative, and I’m truly grateful to the Governor for creating such an opportunity to
-                        help young learners like me grow in the world of technology.
+                        My journey in programming began 1.5 years ago when I started with TypeScript, followed by HTML and CSS. I later explored Tailwind CSS and Next.js, which allowed me to build full-stack websites—handling both frontend using Next.js and backend with tools like Sanity CMS. Currently, I’m diving into Python, focusing on AI and Agentic AI concepts. This evolving path has sharpened my skills, and now I’m actively seeking a job that offers a good salary and professional growth. I'm truly thankful for every step that has brought me closer to my goals in the tech world.
                     </p>
                     <Link target="_blank" href={"/CV"}>
                         <button className="bg-[#F46B04] flex items-center justify-center text-white border-none w-[120px] md:w-[224px] h-[40px] md:h-[48px] mt-6 rounded-[8px] text-[14px] md:text-[18px] hover:translate-y-[-2px] transition-all duration-500 ease-in-out">

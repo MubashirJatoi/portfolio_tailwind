@@ -25,8 +25,9 @@ function Aboutme() {
                     <p className="text-[13px] sm:text-[18px]">
                         I am Mubashir Hussain, an 18-year-old from Karachi, Sindh, belonging to the Jatoi caste.
                         A year ago, I completed my matriculation and now study in 12th grade at Sindh Muslim College.
-                        My journey in programming began 1.5 years ago when I started with TypeScript, followed by HTML and CSS. I later explored Tailwind CSS and Next.js, which allowed me to build full-stack websites—handling both frontend using Next.js and backend with tools like Sanity CMS. Currently, I’m diving into Python, focusing on AI and Agentic AI concepts. This evolving path has sharpened my skills, and now I’m actively seeking a job that offers a good salary and professional growth. I'm truly thankful for every step that has brought me closer to my goals in the tech world.
+                        My journey in programming began 1.5 years ago when I started with TypeScript, followed by HTML and CSS. I later explored Tailwind CSS and Next.js, which allowed me to build full-stack websites—handling both frontend using Next.js and backend with tools like Sanity CMS. Currently, I&apos;m diving into Python, focusing on AI and Agentic AI concepts. This evolving path has sharpened my skills, and now I&apos;m actively seeking a job that offers a good salary and professional growth. I&apos;m truly thankful for every step that has brought me closer to my goals in the tech world.
                     </p>
+
                     <Link target="_blank" href={"/CV"}>
                         <button className="bg-[#F46B04] flex items-center justify-center text-white border-none w-[120px] md:w-[224px] h-[40px] md:h-[48px] mt-6 rounded-[8px] text-[14px] md:text-[18px] hover:translate-y-[-2px] transition-all duration-500 ease-in-out">
                             <Image className="mr-2 bg-transparent" src={Download} alt="download" />

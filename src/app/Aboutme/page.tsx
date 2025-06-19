@@ -18,7 +18,7 @@ function Aboutme() {
             <div className="aboutme-section flex flex-col lg:flex-row items-center lg:items-start gap-6 md:gap-[13rem] mt-10">
                 <div className="relative w-full md:pl-[2rem] max-w-[380px] mx-auto lg:mx-0 mt-6 sm:mt-10">
                     <Image src={Rectangle} alt="rectangle" className="w-[90%] m-auto sm:w-[300px] h-[310px] md:w-[400px] md:h-[440px] sm:h-[350px]" />
-                    <Image src={Mypic} alt="my-pic" className="absolute top-[-16%] sm:top-[-19%] md:left-[60%] md:top-[-21%] left-[54%] transform -translate-x-1/2 bg-transparent h-[22.5rem] sm:h-[26rem] md:w-[400px] md:h-[33.3rem] w-[90%] max-w-[410px]" />
+                    <Image src={Mypic} alt="my-pic" className="absolute top-[-16%] sm:top-[-19%] md:left-[60%] md:top-[-21%] left-[54%] transform -translate-x-1/2 bg-transparent h-[22.5rem] sm:h-[26rem] md:w-[400px] md:h-[33.3rem] w-[80%] max-w-[410px]" />
                 </div>
 
                 <div className="aboutme-font max-w-[480px] text-[#959595] text-justify leading-relaxed mx-auto lg:ml-10 mt-10 lg:mt-0">

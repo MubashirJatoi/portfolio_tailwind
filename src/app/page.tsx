@@ -21,7 +21,7 @@ export default function Home() {
                         Front-end web Developer
                     </h1>
 
-                    <div className="profiles flex justify-center lg:justify-start gap-6 mt-6 flex-wrap">
+                    <div className="profiles bg-transparent flex justify-center lg:justify-start gap-6 mt-6 flex-wrap">
                         {[{
                             href: "https://github.com/MubashirJatoi?tab=repositories", icon: Github
                         }, {
